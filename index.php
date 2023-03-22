@@ -31,8 +31,6 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">經驗</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">興趣</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">獎項</a></li>
             </ul>
         </div>
     </nav>
