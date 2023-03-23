@@ -30,7 +30,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">關於我</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">經驗</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能,作品</a></li>
             </ul>
         </div>
     </nav>
@@ -186,7 +186,7 @@
                             &emsp;2.機構因天災供水系統停水,緊急規劃實施長達21天應變處理得宜。<br>
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">2013/9-2016/5</span></div>
                 </div>
                 
             </div>
@@ -230,11 +230,11 @@
                 <ul class="fa-ul mb-0">
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        <a href="#">萬年曆</a>
+                        <a href="./calendar/calendar.php">萬年曆</a>
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        <a href="#">酒類介紹網</a>
+                        <a href="./winery">酒類介紹網</a>
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
