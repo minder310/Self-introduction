@@ -30,7 +30,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">關於我</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">經驗</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能,作品</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能-作品</a></li>
             </ul>
         </div>
     </nav>
@@ -49,7 +49,7 @@
                 </div>
                 <p class="lead mb-5">
                     因發現自己對程式的熱誠，在28歲毅然決然踏上程式之路並不斷學習中。<br>
-                    目前較熟悉程式語言:PHP,MYSQL,jQure
+                    目前較熟悉程式語言:PHP,MYSQL,JQuery
                 </p>
                 <div class="social-icons">
                     <a class="social-icon" href="https://github.com/minder310"><i class="fab fa-github"></i></a>
