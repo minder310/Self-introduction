@@ -238,7 +238,7 @@
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Functional Teams
+                        <a href="./EndOfCollege">CSSrwd</a>
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
