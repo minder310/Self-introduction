@@ -8,6 +8,8 @@
     <meta name="author" content="" />
     <title>Resume - Start Bootstrap Theme</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- 掛載jq -->
+    <script src="./js/jquery-3.6.4.js"></script>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -188,7 +190,7 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">2013/9-2016/5</span></div>
                 </div>
-                
+
             </div>
         </section>
         <hr class="m-0" />
@@ -224,7 +226,7 @@
                     <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                     <li class="list-inline-item"><i class="fa-brands fa-bootstrap"></i></li>
                     <li class="list-inline-item"><i class="fa-brands fa-php"></i></li>
-                    
+
                 </ul>
                 <div class="subheading mb-3">作品</div>
                 <ul class="fa-ul mb-0">
@@ -247,10 +249,10 @@
                 </ul>
             </div>
         </section>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
