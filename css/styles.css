@@ -11434,5 +11434,10 @@ section.resume-section .resume-section-content {
   }
 }
 .flex-grow-1 > p{
-  display: none;
+  display: block;
+  transition: all 3s;
+  opacity: 0;
+}
+.flex-grow-1 > .show{
+  opacity: 1;
 }

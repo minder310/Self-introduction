@@ -48,11 +48,11 @@ $(document).ready(function () {
             // 視窗高度+滑動頂端高度，就是現在滑多少高度。
             let scrollSumWindow_height=window_height+document_hight;
             console.log("目前視窗觀看高度",scrollSumWindow_height)
-            if($(this).offset().top<scrollSumWindow_height-500){
+            if($(this).offset().top<scrollSumWindow_height){
                 console.log("顯示")
-                $(this).slideDown(5000);
+                $(this).addClass("show");
             }else{
-                $(this).slideUp(1000);
+                $(this).removeClass("show");
             }
             
         });
