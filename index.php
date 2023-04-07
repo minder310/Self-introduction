@@ -220,13 +220,12 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">技能</h2>
                 <div class="subheading mb-3">Programming Languages & Tools</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-bootstrap"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-php"></i></li>
-
+                <ul class="list-inline dev-icons" style="height: 80px;padding:0px;" >
+                    <li class="list-inline-item test"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item test"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item test"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item test"><i class="fa-brands fa-bootstrap"></i></li>
+                    <li class="list-inline-item test"><i class="fa-brands fa-php"></i></li>
                 </ul>
                 <div class="subheading mb-3">作品</div>
                 <ul class="fa-ul mb-0">

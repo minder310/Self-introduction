@@ -11444,3 +11444,13 @@ section.resume-section .resume-section-content {
   opacity: 1;
   left: 0px;
 }
+.test{
+  transition: all 3s;
+  opacity: 0;
+  position: relative;
+  left: -40px;
+}
+.show{
+  opacity: 1;
+  left: 0px;
+}

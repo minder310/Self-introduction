@@ -35,26 +35,61 @@ window.addEventListener('DOMContentLoaded', event => {
 
 $(document).ready(function () {
     $(window).scroll(function () {
+        let document_hight = $(document).scrollTop();
+        // 視窗高度。
+        let window_height = $(window).height();
+        // 視窗高度+滑動頂端高度，就是現在滑多少高度。
+        // 現在滑動頂端高度。
+        let scrollSumWindow_height = window_height + document_hight;
         // 先輸出所有class flex-grow-1的高度。
         $(".flex-grow-1 > p").each(function () {
             // element == this
             // 先偵測，所有class flex-grow-1高度。 
-            let a= $(this).offset().top;
-            console.log("物件距離頂端高度",a);
-            // 現在滑動頂端高度。
-            let document_hight=$(document).scrollTop();
-            // 視窗高度。
-            let window_height=$(window).height();
-            // 視窗高度+滑動頂端高度，就是現在滑多少高度。
-            let scrollSumWindow_height=window_height+document_hight;
-            console.log("目前視窗觀看高度",scrollSumWindow_height)
-            if($(this).offset().top<scrollSumWindow_height-200){
-                console.log("顯示")
+            let a = $(this).offset().top;
+            // console.log("物件距離頂端高度", a);
+            // console.log("目前視窗觀看高度", scrollSumWindow_height)
+            if ($(this).offset().top < scrollSumWindow_height - 200) {
+                // console.log("顯示")
                 $(this).addClass("show");
-            }else{
+            } else {
                 $(this).removeClass("show");
             }
-            
         });
+        let list_inline_top = $(".list-inline").offset().top;
+        // 有多少個class或者是其他元素，$(元素).length，可判斷有多少元素，可以用在eq裡面。
+        let howMachTest = $(".test").length;
+        // console.log("howMachTest",howMachTest);
+        if (list_inline_top < scrollSumWindow_height) {
+            let time=0;
+            for (let i = 0; i < howMachTest; i++) {
+                setTimeout(() => {
+                    $(".test").eq(i).addClass("show");
+                }, time);
+                time=time+750;
+            }
+            // 舊版寫法要是增加物件，就要多寫。
+            // addclass無法使用delay，要用setTimeout，才能能夠
+            /*$(".test").eq(0).addClass("show",);
+            setTimeout(function () {
+                $(".test").eq(1).addClass("show");
+            }, 500);
+            setTimeout(function () {
+                $(".test").eq(2).addClass("show")
+            }, 1000);
+           setTimeout(() => {
+               $(".test").eq(3).addClass("show");
+           }, 1500); 
+           setTimeout(() => {
+               $(".test").eq(4).addClass("show");
+           }, 2000);*/  
+        } else {
+            $(".test").removeClass("show");
+        }
+        /*
+        setTimeout是指延遲時間，啟動finction裡面的程式，
+        setTimeout(() => {
+            要執行的內容。
+        }, timeout:要延遲的時間。);
+        */
     });
 });
