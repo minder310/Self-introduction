@@ -11444,6 +11444,7 @@ section.resume-section .resume-section-content {
   opacity: 1;
   left: 0px;
 }
+/* 以下為魔改。 */
 .test{
   transition: all 3s;
   opacity: 0;
@@ -11453,4 +11454,14 @@ section.resume-section .resume-section-content {
 .show{
   opacity: 1;
   left: 0px;
+}
+.ul_top_chang_font_size{
+  position: sticky;
+  top: 56px;
+}
+@media screen and (min-width:990px){
+  .ul_top_chang_font_size{
+    position: sticky;
+    top: 0px;
+  }
 }

@@ -92,4 +92,20 @@ $(document).ready(function () {
         }, timeout:要延遲的時間。);
         */
     });
+    // class  XXX下面的class XXX綁定。
+    $(".ul_top_chang_font_size .nav-link").click(function (e) {
+        // 停止預設動作。 
+        e.preventDefault();
+        // 找到物件p的font-size。
+        let size=$("p").css("font-size");
+        // 將裡面的px給去掉。
+        size=Number(size.replace("px",""));
+        if($(this).text()=="+A"){
+            $("p").css("font-size", size+2);
+        };
+        if($(this).text()=="-A"){
+            $("p").css("font-size", size-2);
+        };
+        
+    });
 });

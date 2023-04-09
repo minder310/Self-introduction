@@ -21,6 +21,14 @@
 
 <body id="page-top">
     <!-- 導航-->
+    <ul class="nav justify-content-end ul_top_chang_font_size">
+        <li class="nav-item" id="+A">
+            <a class="nav-link" href="#" style="margin: 0px;padding:0px 2px;">+A</a>
+        </li>
+        <li class="nav-item" id="-A">
+            <a class="nav-link" href="#" style="margin: 0px;padding:0px 2px;">-A</a>
+        </li>
+    </ul>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">趙培堯</span>
@@ -220,7 +228,7 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">技能</h2>
                 <div class="subheading mb-3">Programming Languages & Tools</div>
-                <ul class="list-inline dev-icons" style="height: 80px;padding:0px;" >
+                <ul class="list-inline dev-icons" style="height: 80px;padding:0px;">
                     <li class="list-inline-item test"><i class="fab fa-html5"></i></li>
                     <li class="list-inline-item test"><i class="fab fa-css3-alt"></i></li>
                     <li class="list-inline-item test"><i class="fab fa-js-square"></i></li>
