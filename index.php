@@ -23,10 +23,10 @@
     <!-- 導航-->
     <ul class="nav justify-content-end ul_top_chang_font_size">
         <li class="nav-item" id="+A">
-            <a class="nav-link" href="#" style="margin: 0px;padding:0px 2px;">+A</a>
+            <a class="nav-link" href="#" style="margin: 0px;padding:10px;">+A</a>
         </li>
         <li class="nav-item" id="-A">
-            <a class="nav-link" href="#" style="margin: 0px;padding:0px 2px;">-A</a>
+            <a class="nav-link" href="#" style="margin: 0px;padding:10px;">-A</a>
         </li>
     </ul>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
